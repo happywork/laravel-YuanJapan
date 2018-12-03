@@ -151,7 +151,7 @@
 
 <div id="contact-us">
 	<div id="main" class="row">
-		<div class="large-12 columns">
+		<div class="large-9 columns">
             <article class="post group">
                 
                 <header class="entry-top special-top">
@@ -178,7 +178,27 @@
                 </div>
             
             </article><!-- /post -->               
-        </div>	        
+        </div>	    
+        <div class="large-3 columns sidebar sidebar-1">			
+			<aside class="widget group">
+				<h4 class="widget-title ">Contact information</h4>
+				<ol class="widget-list widget-list-single">
+					<li>
+						<figure class="event-thumb">
+							<a href="artist.html">
+								<img src="{{ asset('images/admin.jpg') }}" alt="" style="width: 100%;">								
+							</a>
+						</figure>
+						<h5 class="list-subtitle">Phone</h5>
+						<h4 class="list-title"><a href="artist.html" class="action-btn">1234567890</a></h4>
+						<h5 class="list-subtitle">Email</h5>
+						<h4 class="list-title"><a href="artist.html" class="action-btn">admin@gmail.com</a></h4>
+						<h5 class="list-subtitle">Name</h5>
+						<h4 class="list-title"><a href="artist.html" class="action-btn">Stewart</a></h4>						
+					</li>
+				</ol>
+			</aside><!-- /widget -->
+		</div>    
 	</div><!-- /main -->
 </div><!-- /main-wrap -->
 @endsection
